@@ -130,7 +130,7 @@ function setup() {
   mainCharacter = new Character(200, 200, 60,0)
   backgroundImage = loadImage("Images/download.png")
   mainCharacterImage = loadImage("Images/images.png")
-  monsterImage = loadImage("Images/test.png")
+  monsterImage = loadImage("Images/SpriteEntity.png")
 
   for (i=0;i<2;i++){
   newMonster = new Character(600 + 50 * i , 100, 60,i)

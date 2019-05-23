@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <a href =  "file:///Users/h205p2/Desktop/Platformer_Jumping_Game_2019_05_23_16_54_54/index.html" > Platformer Jumping Game </a>
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+
+
+</body></html>

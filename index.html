@@ -4,7 +4,7 @@
     <script src="p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
-    <a href =  "file:///Users/h205p2/Desktop/Platformer_Jumping_Game_2019_05_23_16_54_54/index.html" > Platformer Jumping Game </a>
+    <a href =  "platformgame.html" > Platform Game </a>
 
   </head>
   <body>

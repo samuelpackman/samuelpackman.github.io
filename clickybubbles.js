@@ -9,18 +9,18 @@ function setup() {
   	B.push(new Bubble(i));
   }
     backgroundbutton = createButton('Change Backround Color');
-  backgroundbutton.position(50,50);
+  backgroundbutton.position(100,150);
   backgroundbutton.mousePressed(changebackground);
-   
+
   colorbutton = createButton('Change Bubble Color');
-  colorbutton.position(220,50);
+  colorbutton.position(100,190);
   colorbutton.mousePressed(changebubblecolors);
-  
+
   velocitybutton = createButton('Change Bubble Velocity');
-  velocitybutton.position(370,50);
+  velocitybutton.position(100,230);
   velocitybutton.mousePressed(changebubblevelocities);
 
- 
+
   textAlign(CENTER);
   textSize(50);
 }
@@ -44,7 +44,7 @@ class Bubble {
   if (this.x>s-this.r) {
     this.sx=-this.sx
     this.x = 2*s-2*this.r - this.x
-  } 
+  }
   if (this.x<this.r) {
   	this.sx=-this.sx
     this.x = 2*this.r - this.x

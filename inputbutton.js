@@ -6,14 +6,14 @@ function setup() {
   background(100,200,100)
 
   input = createInput();
-  input.position(20, 65);
+  input.position(100,140);
 
   button = createButton('submit');
-  button.position(input.x + input.width, 65);
+  button.position(input.x + input.width+5, 134);
   button.mousePressed(milestokilometers);
 
   milevalue = createElement('h2', 'How many miles?');
-  milevalue.position(20, 5);
+  milevalue.position(100,90);
 
   textAlign(CENTER);
   textSize(50);

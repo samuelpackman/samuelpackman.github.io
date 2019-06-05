@@ -25,6 +25,8 @@ class Star {
   }
 }
 function draw(){
+  background(0);
+
   let star = new Star();
   star.x = mouseX
   star.y = mouseY

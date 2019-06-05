@@ -1,7 +1,7 @@
 s=800
 function setup() {
   createCanvas(s,s);
-  background(0)
+  background(0);
 }
 
 class Star {

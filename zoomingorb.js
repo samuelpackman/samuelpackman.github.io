@@ -1,7 +1,7 @@
 s=800
 function setup() {
   createCanvas(s,s);
-  
+  background(0)
 }
 
 class Star {
@@ -24,14 +24,13 @@ class Star {
     ellipse(this.x,this.y,this.radius,this.radius);
   }
 }
-function draw(){   
+function draw(){
   let star = new Star();
   star.x = mouseX
   star.y = mouseY
-  
+
 	for (i=0;i<100;i++) {
     star.move()
   }
-  
+
 }
-    
